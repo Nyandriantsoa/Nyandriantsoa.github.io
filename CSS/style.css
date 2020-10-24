@@ -1,0 +1,77 @@
+body{
+    width: 90%;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+#name{
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+#homework{
+    clear: both;
+}
+
+#banner_img{
+    width: 100%;
+    padding-left: 6%;
+    padding-right: 6%;
+    margin: auto;
+    margin-left: -6%;
+    height: 300px;
+    background-image: linear-gradient(#646FF7, #60AFF6);
+}
+
+#profile_pic{
+    position: absolute;
+    width: 250px;
+    left: calc(50% - 125px);
+    margin-top: 75px;
+    border-radius: 20%;
+    overflow: hidden;
+    
+}
+
+#profile_pic img{
+    width: 250px;
+}
+
+@media screen and (max-width: 800px){
+    #profile_pic img{
+        width: 130px;
+    }
+
+    #profile_pic{
+        width: 130px;
+        left: calc(50% - 65px);
+        margin-top: 30px;
+    }   
+
+    #banner_img{
+        width: 100%;
+        margin: auto;
+        height: 150px;   
+    }
+
+    #name{
+        margin-top: 25px;
+    }
+}
+
+#content{
+    margin-top: 75px;
+    background-color: rgba(96, 175, 246, 0.5);
+    height: 400px;
+}
+
+#footer_img{
+    width: 100%;
+    padding-left: 6%;
+    padding-right: 6%;
+    margin-top: 20px;
+    margin-left: -6%;
+    height: 100px;
+    background-image: linear-gradient(#60AFF6, #646FF7);
+}
