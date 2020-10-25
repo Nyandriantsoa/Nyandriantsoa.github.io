@@ -1,0 +1,74 @@
+body{
+    background-image: url("../images/background.png");
+}
+
+.banner{
+    background-image: url("../images/bannerbg.png");
+}
+
+.banner img{
+    background-image: url("../images/bannerbg.png");
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.review{
+    width: 70%;
+    margin: auto;
+    background-color: olivedrab;
+    border: gray solid 2px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.about{
+    float: right;
+    width: 25%;
+    background-color: olivedrab;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about div{
+    float: right;
+}
+
+dl{
+    clear: right;
+    float: right;
+    width: 100%;
+}
+
+dt{
+    font-weight: bold;
+}
+
+.review-comment{
+    background-image: url("../images/background.png");
+}
+
+p{
+    width: 80%;
+    margin: auto;
+}
+
+.review-comment div{
+    float: left;
+}
+
+.comment{
+    border-color: lightgray;
+    border-radius: 20px;
+    border-style: solid;
+    background-color: lightyellow;
+    width: 350px;
+}
+
+.title{
+    background-image: url("../images/rbg.png");
+    width: 75%;
+    text-align: left;
+    font-size: 70px;
+    font-weight: bold;
+    color: red;
+    height: 90px;
+}
