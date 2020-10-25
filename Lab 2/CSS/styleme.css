@@ -39,3 +39,37 @@ strong {
 #footer a img{
     width: 100px;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p::first-letter{
+    font-size: 40px;
+}
+
+dt{
+    color: yellow;
+}
+
+/* #reversed{
+    transform: rotate(180deg);
+}
+#reversed > li {
+    transform: rotate(-180deg);
+} */
+
+
+#reversed { 
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#reversed li {
+    flex: 0 0 auto;
+}
