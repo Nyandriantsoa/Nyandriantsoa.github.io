@@ -1,0 +1,41 @@
+body {
+    width: 80%;
+    margin: auto;
+    background-image: linear-gradient(#ff23a8 , #23a5d2);
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    margin-top: 50px;
+    clear: both;
+}
+
+strong {
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#happy_mood {
+    float: left;
+    overflow: hidden;
+    display: inline;
+}
+
+#sad_mood {
+    overflow: hidden;
+    display: inline;
+}
+
+#footer{
+    margin-top: 50px;
+    text-align: right;
+}
+
+#footer a img{
+    width: 100px;
+}
