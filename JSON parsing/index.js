@@ -1,4 +1,4 @@
-var host = "http://jsonplaceholder.typicode.com";
+var host = "https://jsonplaceholder.typicode.com";
 
 $(function (){
 
