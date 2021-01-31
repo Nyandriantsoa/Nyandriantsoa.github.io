@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>Quiz</servlet-name>
+        <servlet-class>servlets.QuizServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Quiz</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Hint</servlet-name>
+        <servlet-class>servlets.HintServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Hint</servlet-name>
+        <url-pattern>/hint</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Restart</servlet-name>
+        <servlet-class>servlets.RestartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Restart</servlet-name>
+        <url-pattern>/restart</url-pattern>
+    </servlet-mapping>
+
+</web-app>
